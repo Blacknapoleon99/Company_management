@@ -5,7 +5,7 @@ public class Employee {
     private String name;
 
     public Employee(String name) {
-        this.name = name;
+        setName(name);
     }
     public String getSound() {
           return "FAN!";
@@ -16,6 +16,6 @@ public class Employee {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name = firstCharacter + rest:
     }
 }

@@ -5,12 +5,12 @@ public class EmployeeTests {
 
     @Test
     public void testConstructorSetName() {
-        var employee = new Employee("Kevin");
+        var employee = new Employee("kevin");
 
 
         var expected = "Kevin";
         var actual = employee.getName();
-        
+
         assertEquals(expected, actual);
     }
 
