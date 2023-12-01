@@ -4,6 +4,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class EmployeeTests {
 
     @Test
+    public void testConstructorSetName() {
+        var employee = new Employee("Kevin");
+
+
+        var expected = "Kevin";
+        var actual = employee.getName();
+        
+        assertEquals(expected, actual);
+    }
+
+
+    @Test
     public void testGetSound() {
         var employee = new Employee("Kevin");
 
@@ -13,4 +25,6 @@ public class EmployeeTests {
 
         assertEquals(expected, actual);
     }
+
+
 }
